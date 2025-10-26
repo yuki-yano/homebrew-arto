@@ -1,9 +1,8 @@
 cask "arto" do
-  version "0.2.0"
-  sha256 "8c4d4fe035ab9927f7c0021e06b31bb24a1fb5b42397c52d8ba7e1a4e41d5dad"
+  version "0.2.1"
+  sha256 "4cb978e1110138521801ff3e1afccf79fdd6fc48d0b5e53b873bd8e25a8efa7b"
 
-  url "https://github.com/lambdalisue/rs-arto/releases/download/v#{version}/Arto_0.1.0_aarch64.dmg",
-      verified: "github.com/lambdalisue/rs-arto/"
+  url "https://github.com/lambdalisue/rs-arto/releases/download/v#{version}/Arto_0.1.0_aarch64.dmg"
   name "Arto"
   desc "GitHub-style Markdown reader"
   homepage "https://github.com/lambdalisue/rs-arto"
